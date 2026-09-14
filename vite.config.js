@@ -1,0 +1,5 @@
+import { defineConfig } from 'vitest/config'
+import react from '@vitejs/plugin-react'
+import { VitePWA } from 'vite-plugin-pwa'
+const base = process.env.GITHUB_ACTIONS ? '/hong-kong-map/' : '/'
+export default defineConfig({base,plugins:[react(),VitePWA({registerType:'prompt',manifest:{id:'./',name:'香港街角・食遊地圖',short_name:'香港街角',description:'食一餐，行一段。你的香港街角指南。',lang:'zh-HK',theme_color:'#f4eedf',background_color:'#f4eedf',display:'standalone',start_url:'./',scope:'./',icons:[{src:'icons/icon-192.png',sizes:'192x192',type:'image/png'},{src:'icons/icon-512.png',sizes:'512x512',type:'image/png',purpose:'any'},{src:'icons/icon-maskable.png',sizes:'512x512',type:'image/png',purpose:'maskable'}]},workbox:{navigateFallback:base+'index.html',globPatterns:['**/*.{js,mjs,css,html,png,webp,svg}'],runtimeCaching:[{urlPattern:({url})=>url.pathname.endsWith('/places.json'),handler:'NetworkFirst',options:{cacheName:'hk-street-places-v1',networkTimeoutSeconds:5}},{urlPattern:/^https:\/\/tile\.openstreetmap\.org\//,handler:'CacheFirst',options:{cacheName:'hk-street-tiles-v1',expiration:{maxEntries:180,maxAgeSeconds:604800}}}]}})],test:{environment:'node'}})

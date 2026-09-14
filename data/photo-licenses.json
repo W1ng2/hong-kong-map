@@ -1,0 +1,51 @@
+{
+  "tai-kwun": {
+    "url": "photos/tai-kwun.webp",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tai_Kwun_Police_Headquarters_Block_201806.jpg",
+    "credit": "Wpcpey",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "nan-lian": {
+    "url": "photos/nan-lian.webp",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nan_Lian_Garden_Overview_201807.jpg",
+    "credit": "Wpcpey",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "heritage-museum": {
+    "url": "photos/heritage-museum.webp",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hong_Kong_Heritage_Museum_201305.jpg",
+    "credit": "Wing1990hk",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+  },
+  "pmq": {
+    "url": "photos/pmq.webp",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:PMQ_Overview_201510.jpg",
+    "credit": "Wpcpey",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "avenue-stars": {
+    "url": "photos/avenue-stars.webp",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Avenue_of_Stars_201901.jpg",
+    "credit": "Wpcpey",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "tim-ho-wan": {
+    "url": "photos/tim-ho-wan.webp",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tim_Ho_Wan_restaurant_at_Sham_Shui_Po_(20190126130901).jpg",
+    "credit": "N509FZ",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "art-museum": {
+    "url": "photos/art-museum.webp",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hong_Kong_Museum_of_Art_renovation_site_201908.jpg",
+    "credit": "Wpcpey",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+}
