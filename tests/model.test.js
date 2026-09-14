@@ -38,4 +38,3 @@ describe('filters and provenance',()=>{
  it('rejects non-exception low ratings',()=>expect(validateData([{...data[0],admission:'standard'}])).toContain('kam-roast: fails admission threshold'))
  it('has honest location distance',()=>expect(distance(data[0],data[0])).toBe(0))
 })
-

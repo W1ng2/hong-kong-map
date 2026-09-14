@@ -23,4 +23,3 @@
 ## Boundaries
 
 First edition only, not a comprehensive Hong Kong restaurant census. No souvenir surface. No bookings, payments, messages to restaurants, review posts or ongoing automations performed. Hong Kong local storage is independent of Da Nang.
-

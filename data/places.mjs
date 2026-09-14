@@ -36,4 +36,3 @@ attraction({id:'pmq',name:'PMQ 元創方',en:'PMQ',region:'港島',district:'中
 attraction({id:'avenue-stars',name:'星光大道',en:'Avenue of Stars',region:'九龍',district:'尖沙咀',category:'海濱／夜景',lat:22.29309722,lng:114.17476111,address:'尖沙咀海濱星光大道',description:'沿維多利亞港散步，看電影人手印、雕像與港島天際線。日落及入夜各有不同景色，留意天氣及臨時封路。',signature:'維港景色、電影手印、海濱步道',arrival:'從尖沙咀海濱步道進入，位置為步道參考點；照片攝於 2019 年。',website:'https://www.avenueofstars.com.hk/en/',hours:'戶外步道；官網未列完整每日開放時段，本版不擅自標示 24 小時。活動或惡劣天氣可能限制通行。',schedule:null,sources:[src('星光大道官方網站','https://www.avenueofstars.com.hk/en/'),src('地點座標','https://en.wikipedia.org/wiki/Avenue_of_Stars,_Hong_Kong')]})
 ]
 export const curatedPlaces=[...restaurants,...attractions]
-

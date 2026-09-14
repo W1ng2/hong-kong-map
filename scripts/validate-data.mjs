@@ -31,4 +31,3 @@ if(process.argv[1]?.endsWith('validate-data.mjs')){
  for(const p of data)if(p.photo&&!fs.existsSync('public/'+p.photo.url))errors.push(p.id+': missing image file')
  if(errors.length){console.error(errors.join('\n'));process.exitCode=1}else console.log(JSON.stringify({places:data.length,restaurants:data.filter(p=>p.kind==='restaurant').length,attractions:data.filter(p=>p.kind==='attraction').length,schedules:data.filter(p=>p.schedule).length,photos:data.filter(p=>p.photo).length}))
 }
-
